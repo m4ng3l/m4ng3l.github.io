@@ -1,0 +1,121 @@
+
+.fashion_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 150px;
+}
+
+.fashion_taital {
+    width: 100%;
+    font-size: 40px;
+    color: #30302e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fashion_section_2 {
+    width: 100%;
+}
+
+.box_main {
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0px 0 30px 10px #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.shirt_text {
+    width: 100%;
+    font-size: 20px;
+    color: #30302e;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.price_text {
+    width: 100%;
+    font-size: 16px;
+    color: #d7000d;
+    text-align: center;
+    margin: 0px;
+}
+
+.tshirt_img1, .tshirt_img2, .tshirt_img3, .tshirt_img4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px 20px;
+    object-fit: contain;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4{
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.btn_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buy_bt {
+    text-align: center;
+    background-color: #d7000d;
+    padding: 6px;
+    border-radius: 8px; 
+}
+
+.buy_bt:hover{
+    background-color: #ffffff;
+    border: black 1px solid;
+}
+
+.buy_bt a {
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.buy_bt a:hover {
+    color: #d7000d;
+}
+
+#main_slider a.carousel-control-next {
+    right: 615px;
+    top: 105%;
+}
+
+#main_slider a.carousel-control-prev {
+    left: 615px;
+    top: 105%;
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    background-color: #30302e;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #fff;
+    background-color: #d7000d;
+}
