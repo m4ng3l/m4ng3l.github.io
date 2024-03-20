@@ -69,11 +69,11 @@
     background-color: #d7000d;
     padding: 6px;
     border-radius: 8px; 
+    border: #d7000d 1px solid;
 }
 
 .buy_bt:hover{
-    background-color: #ffffff;
-    border: black 1px solid;
+    background-color: #fc4a56;
 }
 
 .buy_bt a {
@@ -88,9 +88,6 @@
     border-radius: 8px;
 }
 
-.buy_bt a:hover {
-    color: #d7000d;
-}
 
 #main_slider a.carousel-control-next {
     right: 615px;
